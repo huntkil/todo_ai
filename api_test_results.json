@@ -1,0 +1,116 @@
+{
+  "timestamp": "2025-07-14T11:59:53.813698",
+  "base_url": "http://localhost:8001",
+  "results": [
+    {
+      "name": "Health Check",
+      "method": "GET",
+      "endpoint": "/health",
+      "expected_status": 200,
+      "actual_status": 200,
+      "response_time": 0.008,
+      "success": true,
+      "error": null
+    },
+    {
+      "name": "Root Endpoint",
+      "method": "GET",
+      "endpoint": "/",
+      "expected_status": 200,
+      "actual_status": 200,
+      "response_time": 0.001,
+      "success": true,
+      "error": null
+    },
+    {
+      "name": "API Documentation",
+      "method": "GET",
+      "endpoint": "/docs",
+      "expected_status": 200,
+      "actual_status": 200,
+      "response_time": 0.001,
+      "success": true,
+      "error": null
+    },
+    {
+      "name": "OpenAPI Schema",
+      "method": "GET",
+      "endpoint": "/openapi.json",
+      "expected_status": 200,
+      "actual_status": 200,
+      "response_time": 0.001,
+      "success": true,
+      "error": null
+    },
+    {
+      "name": "Process Work Input - Schedule",
+      "method": "POST",
+      "endpoint": "/process_work_input",
+      "expected_status": 200,
+      "actual_status": 200,
+      "response_time": 0.11,
+      "success": true,
+      "error": null
+    },
+    {
+      "name": "Process Work Input - Meeting",
+      "method": "POST",
+      "endpoint": "/process_work_input",
+      "expected_status": 200,
+      "actual_status": 200,
+      "response_time": 0.007,
+      "success": true,
+      "error": null
+    },
+    {
+      "name": "Process Work Input - Work Log",
+      "method": "POST",
+      "endpoint": "/process_work_input",
+      "expected_status": 200,
+      "actual_status": 200,
+      "response_time": 0.107,
+      "success": true,
+      "error": null
+    },
+    {
+      "name": "Process Work Input - Empty Text",
+      "method": "POST",
+      "endpoint": "/process_work_input",
+      "expected_status": 200,
+      "actual_status": 200,
+      "response_time": 0.002,
+      "success": true,
+      "error": null
+    },
+    {
+      "name": "Process Work Input - Missing Fields",
+      "method": "POST",
+      "endpoint": "/process_work_input",
+      "expected_status": 422,
+      "actual_status": 422,
+      "response_time": 0.001,
+      "success": true,
+      "error": null
+    },
+    {
+      "name": "Process Work Input - Invalid JSON",
+      "method": "POST",
+      "endpoint": "/process_work_input",
+      "expected_status": 422,
+      "actual_status": 422,
+      "response_time": 0.001,
+      "success": true,
+      "error": null
+    },
+    {
+      "name": "Invalid Endpoint",
+      "method": "GET",
+      "endpoint": "/invalid_endpoint",
+      "expected_status": 404,
+      "actual_status": 404,
+      "response_time": 0.001,
+      "success": true,
+      "error": null
+    }
+  ]
+}
